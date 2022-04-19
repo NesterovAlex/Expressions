@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="university:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a268d4f-0e01-4995-8a09-668dda93f72d" name="Default Changelist" comment="Frontend updated">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/controller/ExpressionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/dao/ExpressionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/dao/mapper/ExpressionRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/model/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/service/ExpressionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/service/exceptions/ParenthesesMismatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/service/exceptions/UnexpectedCharacterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/util/ExpressionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/util/Lexeme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/util/LexemeBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/util/LexemeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/expression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nesterov/expressions/dao/ExpressionDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nesterov/expressions/service/ExpressionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/nesterov/expressions/util/ExpressionUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95aa81a4-e1fe-4714-ba21-1fefde81a1a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/95aa81a4-e1fe-4714-ba21-1fefde81a1a4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile.2021-01-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile.2021-05-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myArtifactID/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/configuration/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/configuration/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/configuration/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/configuration/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/configuration/SpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/configuration/SpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/controller/TeacherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/AudienceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/GroupDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/LessonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/LessonTimeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/SubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/TeacherDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/AudienceRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/GroupRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/LessonRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/LessonTimeRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/StudentRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/SubjectRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/SubjectSimpleRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/TeacherRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/dao/mapper/TeacherSimpleRowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Audience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Lesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/LessonTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/model/University.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/AudienceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/GroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/LessonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/LessonTimeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/SubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/ExceededMaxGroupSizeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/HasLessonsWithSameGroupsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/HasNotEnoughtPlacesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/HasNotRightToTeachException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/LessonsWithSameTeacherException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotEmptyAudienceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/service/exceptions/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotRightTimeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotUniqueAddressException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotUniqueEmailException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotUniqueNameException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotUniquePhoneException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/NotUniqueRoomNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nesterov/expressions/service/exceptions/NotUniqueExpressionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nesterov/university/service/exceptions/WeekendDayException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/expressions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teachers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/AudienceDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/GroupDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/LessonDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/LessonTimeDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/StudentDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/SubjectDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/TeacherDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/dao/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nesterov/expressions/dao/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/AudienceServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/GroupServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/LessonServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/LessonTimeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/StudentServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/SubjectServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nesterov/university/service/TeacherServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/configuration/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/configuration/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/configuration/SpringMvcDispatcherServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/controller/TeacherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/AudienceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/GroupDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/LessonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/LessonTimeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/SubjectDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/TeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/AudienceRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/GroupRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/LessonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/LessonTimeRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/StudentRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/SubjectRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/SubjectSimpleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/TeacherRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/dao/mapper/TeacherSimpleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Audience.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Lesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/LessonTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/model/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/AudienceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/GroupService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/LessonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/LessonTimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/SubjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/ExceededMaxGroupSizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/HasLessonsWithSameGroupsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/HasNotEnoughtPlacesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/HasNotRightToTeachException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/LessonsWithSameTeacherException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotEmptyAudienceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotRightTimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotUniqueAddressException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotUniqueEmailException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotUniqueNameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotUniquePhoneException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/NotUniqueRoomNumberException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nesterov/university/service/exceptions/WeekendDayException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/AudienceDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/GroupDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/LessonDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/LessonTimeDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/StudentDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/SubjectDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/TeacherDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/dao/TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/AudienceServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/GroupServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/LessonServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/LessonTimeServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/StudentServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/SubjectServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nesterov/university/service/TeacherServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/configuration/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/configuration/SpringConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/configuration/SpringMvcDispatcherServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/controller/TeacherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/AudienceDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/GroupDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/LessonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/LessonTimeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/SubjectDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/TeacherDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/AudienceRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/GroupRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/LessonRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/LessonTimeRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/StudentRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/SubjectRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/SubjectSimpleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/TeacherRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/dao/mapper/TeacherSimpleRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Audience.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Lesson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/LessonTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/model/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/AudienceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/GroupService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/LessonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/LessonTimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/SubjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/ExceededMaxGroupSizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/HasLessonsWithSameGroupsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/HasNotEnoughtPlacesException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/HasNotRightToTeachException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/LessonsWithSameTeacherException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotEmptyAudienceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotRightTimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotUniqueAddressException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotUniqueEmailException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotUniqueNameException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotUniquePhoneException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/NotUniqueRoomNumberException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/com/nesterov/university/service/exceptions/WeekendDayException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/bootstrap-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/checker-framework-1.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/commons-collections4-4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/commons-compress-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.12.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.12.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.12.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/javax.mail-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.3.0-alpha5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.3.0-alpha5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/org.webjars-jquery-3.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/org.webjars.bower-jquery-3.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/popper.js-1.16.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/postgresql-42.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-2.0.0-alpha1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/webjars-locator-0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/lib/webjars-locator-core-0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/views/details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/views/students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/views/teachers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/WEB-INF/views/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/university-0.0.1-SNAPSHOT/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university.iml" beforeDir="false" afterPath="$PROJECT_DIR$/university.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/university.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1mcfARGKXt0gAHWKGacUTAnPpvG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "10238d6114894bb5edc39981835bbec9"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\University\src\main\webapp" />
+      <recent name="D:\University\src\main\webapp\WEB-INF" />
+      <recent name="D:\University\src\main\resources\static\js" />
+      <recent name="D:\University\src\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nesterov.expressions.dao" />
+      <recent name="com.nesterov.expressions.service" />
+      <recent name="com.nesterov.expressions.util" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+    <configuration name="ExpressionDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nesterov.expressions.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nesterov.expressions.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.nesterov.expressions.dao.ExpressionDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionDaoTest.givenExpectedCountOfRowsInTabl_whenCreate_thenEqualsCountOfRowsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nesterov.expressions.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nesterov.expressions.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.nesterov.expressions.dao.ExpressionDaoTest" />
+      <option name="METHOD_NAME" value="givenExpectedCountOfRowsInTabl_whenCreate_thenEqualsCountOfRowsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionDaoTest.givenExpectedExpression_whenFindAllThatResultLessThanValue_thenExpectedExpressionReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nesterov.expressions.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nesterov.expressions.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.nesterov.expressions.dao.ExpressionDaoTest" />
+      <option name="METHOD_NAME" value="givenExpectedExpression_whenFindAllThatResultLessThanValue_thenExpectedExpressionReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nesterov.expressions.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nesterov.expressions.service" />
+      <option name="MAIN_CLASS_NAME" value="com.nesterov.expressions.service.ExpressionServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressionUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expressions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nesterov.expressions.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nesterov.expressions.util" />
+      <option name="MAIN_CLASS_NAME" value="com.nesterov.expressions.util.ExpressionUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="expressions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="expressions" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk-11.0.11">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/expressions" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="university:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_university_2" />
+        <option name="HTTP_PORT" value="8085" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55492" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="university:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ExpressionDaoTest" />
+      <item itemvalue="JUnit.ExpressionDaoTest.givenExpectedCountOfRowsInTabl_whenCreate_thenEqualsCountOfRowsReturned" />
+      <item itemvalue="JUnit.ExpressionDaoTest.givenExpectedExpression_whenFindAllThatResultLessThanValue_thenExpectedExpressionReturned" />
+      <item itemvalue="JUnit.ExpressionServiceTest" />
+      <item itemvalue="JUnit.ExpressionUtilTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExpressionDaoTest" />
+        <item itemvalue="JUnit.ExpressionDaoTest.givenExpectedExpression_whenFindAllThatResultLessThanValue_thenExpectedExpressionReturned" />
+        <item itemvalue="JUnit.ExpressionServiceTest" />
+        <item itemvalue="JUnit.ExpressionUtilTest" />
+        <item itemvalue="JUnit.ExpressionDaoTest.givenExpectedCountOfRowsInTabl_whenCreate_thenEqualsCountOfRowsReturned" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a268d4f-0e01-4995-8a09-668dda93f72d" name="Default Changelist" comment="" />
+      <created>1609797655986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609797655986</updated>
+      <workItem from="1609797671781" duration="8261000" />
+      <workItem from="1609845788597" duration="1157000" />
+      <workItem from="1610660250240" duration="6574000" />
+      <workItem from="1610889606449" duration="179000" />
+      <workItem from="1611084394566" duration="12815000" />
+      <workItem from="1611258981729" duration="6570000" />
+      <workItem from="1611408521617" duration="29357000" />
+      <workItem from="1611487040910" duration="28256000" />
+      <workItem from="1612730042132" duration="1510000" />
+      <workItem from="1612818083158" duration="1311000" />
+      <workItem from="1613838010417" duration="19958000" />
+      <workItem from="1615725802846" duration="1309000" />
+      <workItem from="1615728059398" duration="23627000" />
+      <workItem from="1617097844376" duration="17000" />
+      <workItem from="1617560755164" duration="9217000" />
+      <workItem from="1621771674700" duration="16767000" />
+      <workItem from="1621791513316" duration="559000" />
+      <workItem from="1621794724638" duration="11265000" />
+      <workItem from="1621814029513" duration="1855000" />
+      <workItem from="1622299130667" duration="30213000" />
+      <workItem from="1626604129696" duration="32160000" />
+      <workItem from="1649894547496" duration="654000" />
+      <workItem from="1649896612814" duration="1525000" />
+      <workItem from="1649936876149" duration="21631000" />
+      <workItem from="1649968437663" duration="661000" />
+      <workItem from="1650140086030" duration="3461000" />
+      <workItem from="1650212106238" duration="15369000" />
+      <workItem from="1650279425825" duration="10000" />
+      <workItem from="1650310053473" duration="9143000" />
+      <workItem from="1650324368333" duration="621000" />
+      <workItem from="1650389930008" duration="15909000" />
+    </task>
+    <task id="LOCAL-00001" summary="Frontend updated">
+      <created>1626645416352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626645416352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Frontend updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nesterov/expressions/controller/ExpressionController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nesterov/expressions/util/ExpressionUtil.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nesterov/expressions/dao/ExpressionDao.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
